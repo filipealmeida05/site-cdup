@@ -1,0 +1,108 @@
+﻿
+nav.menu1{ font-family:Arial, sans-serif; background-color: #003366; padding: 1rem;}
+
+nav.menu1 h1 
+{color:white; margin-bottom: 4rem; text-align: center;}
+
+nav.menu1 ul {list-style: none; display: flex; justify-content: center; padding: 0; margin: 0; gap: 8rem;}
+
+nav.menu1 ul li { margin: 0;}
+
+nav.menu1 ul li a {text-decoration: none; color: white; font-weight: bold; transition: color 0.3s, background-color 0.3s; padding: 0.5rem 3.5rem; border-radius: 10px;}
+
+nav.menu1 ul li a:hover {color: #003366; background-color: #00aaff;}
+	
+----
+
+{ margin: 10; padding: 0; box-sizing: border-box;}
+
+body {font-family: Arial, sans-serif;line-height: 1.6;z}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+.training-section, .coach, .Instagram, .Contactos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.training-section h3, .schedule h3, .coach h3, .Instagram h3, .Contactos h3 {
+    font-size: 1rem;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.training-section h1, .schedule h1, .coach h1, .Instagram h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.register-button, .Instagram a, .Maps a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.register-button:hover, .Instagram a:hover, .Maps a:hover {
+    background-color: #005599;
+}
+
+.schedule table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+    padding: 1rem;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+.schedule tr:nth-child(even){
+    background-color: #f2f2f2;
+							}
+
+.schedule tr:hover {
+    background-color: #e6e6e6;
+					}
+					
+.atletas img { 
+    max-width: 400px; 
+}
+
+.treinador img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.insta img, .maps img {
+    max-width: 250px;
+    border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #003366;
+  color: white;
+  font-weight: bold;
+       }
+
+
